@@ -29,7 +29,7 @@
         templates     : {
             wrapper                    : _.template('<div class="mentions-input-box"></div>'),
             autocompleteList           : _.template('<div class="mentions-autocomplete-list"></div>'),
-            autocompleteListItem       : _.template('<li data-ref-id="<%= id %>" data-ref-type="<%= type %>" data-display="<%= display %>"><%= content %></li>'),
+            autocompleteListItem       : _.template('<li class="needsclick" data-ref-id="<%= id %>" data-ref-type="<%= type %>" data-display="<%= display %>"><%= content %></li>'),
             autocompleteListItemAvatar : _.template('<img src="<%= avatar %>" />'),
             autocompleteListItemIcon   : _.template('<div class="icon <%= icon %>"></div>'),
             mentionsOverlay            : _.template('<div class="mentions"><div></div></div>'),
